@@ -1,0 +1,4 @@
+<h1 [ngClass]="{ colorGreen: condition, colorRed: !condition }">
+  Condition is = {{ condition }}
+</h1>
+<button (click)="changeCondition()">Change condition</button>
